@@ -127,8 +127,7 @@ nav {
 @media (max-width: 850px) {
     .text-box-container {
         flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
-        text-align: center; /* align text */
+        align-items: center; /* Center items horizontally */ /* align text */
         margin-top: 20px; /* Add spacing from the header */
     }
 
@@ -139,8 +138,9 @@ nav {
 
     .text-box {
         max-width: 90%;/* Adjust text width for smaller screens */
-        text-align: left;
     }
+    .text-box h3{
+        text-align: left;
     .logo {
         margin-top: 10%; /* Adjust this value to move the name down */
     }
