@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects-Parinith Katte</title>
+    <link rel="stylesheet" href="style.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <a href="index.html">Parinith Katte</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="publications_awards.html">Publications & Awards</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </section>
+    <section>
+        <div class="p-title">
+            <h2>Design, Development and Heat Transfer Analysis of Cryogenic Transfer Lines
+            </h2>
+            <h3>IISc, Bangalore
+            </h3>
+        </div>
+    </section>
+    <section class="project-details">
+        <div class="project-container">
+            <div class="project-content">
+                <ul>
+                    <li>The project focuses on designing, developing, and analyzing the heat transfer performance of cryogenic transfer lines, with extensive research on insulation materials and commercially available dimensions to optimize thermal efficiency.
+                    </li><li>A CFD model was validated using published research (Lye et al.), with ANSYS 2020 R2 simulations comparing outlet temperatures. A mesh-independence study and a 2D vs. 3D modeling comparison were performed to reduce computational time while maintaining accuracy.
+                    </li><li>Various insulation techniques, including bare tube, Polyurethane Foam (PUF), and vacuum jacket insulation, were analyzed. Simulations identified a critical insulation thickness, beyond which additional insulation increased outlet temperatures rather than improving performance.
+                    </li><li>A parametric study on insulation thickness provided insights for optimizing cryogenic transfer line designs, ensuring better energy efficiency and practical applicability for commercial industries.
+                    </li><li>Future work includes experimental validation of CFD results to enhance accuracy, with the development of a comprehensive database of optimized transfer line configurations for industrial implementation.</li>
+                </ul>
+                <p><strong>Skills:</strong>CAD- Solidworks
+                    CFD- ANSYS Fluent, ANSYS Workbench
+                    FEM- ANSYS Structural, Matlab                    
+                    </p>
+            </div>
+            <div class="project-images">
+                <img src="p41.jpg" alt="image">
+                <img src="p42.jpg" alt="image">
+                <img src="p43.jpg" alt="image">
+            </div>
+        </div>
+    </section>
+     <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h4>Email</h4>
+                <p><a href="mailto:katteparinith18@gmail.com">katteparinith18@gmail.com</a></p>
+            </div>
+            <div class="footer-item">
+                <h4>LinkedIn</h4>
+                <p><a href="https://www.linkedin.com/in/parinith-katte/" target="_blank">in</a></p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById("navLinks");
+            if (navLinks.style.display === "block") {
+                navLinks.style.display = "none"; // Hide the menu
+            } else {
+                navLinks.style.display = "block"; // Show the menu
+            }
+        }
+    </script>
+</body> 
+</html>

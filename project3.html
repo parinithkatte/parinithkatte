@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects-Parinith Katte</title>
+    <link rel="stylesheet" href="style.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <a href="index.html">Parinith Katte</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="publications_awards.html">Publications & Awards</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </section>
+    <section>
+        <div class="p-title">
+            <h2>Design and Optimization of Flexure Bearings in Cryocoolers using CAD and FEM principles.
+            </h2>
+            <h3>IISc, Bangalore
+            </h3>
+        </div>
+    </section>
+    <section class="project-details">
+        <div class="project-container">
+            <div class="project-content">
+                <ul>
+                    <li>The project aimed to optimize flexure bearings used in cryocoolers to enhance structural performance, reliability, and efficiency in cryogenic applications through an extensive simulation-driven approach. </li>
+                    <li>The flexure bearing was designed using ANSYS Design Modeler, and structural simulations were conducted to analyze forces, stress distribution, and the natural frequency of the structure, ensuring accurate performance evaluation.</li>
+                    <li>Nearly 3000 simulation-driven optimizations were performed, refining critical design parameters to achieve an ideal balance between flexibility and structural integrity, leading to an optimized bearing geometry with enhanced operational stability.</li>
+                    <li>The final design successfully minimized stress concentrations while maintaining the necessary flexibility, and a simulation-based database was developed to support further refinement and industrial applications.</li>
+                    <li>The optimized flexure bearing parameters contribute to improved cryocooler performance, increased longevity, and reduced mechanical failures, making the study highly valuable for industries that rely on efficient cryogenic systems.
+                    </li>
+                </ul>
+                <p><strong>Skills:</strong>CAD- Solidworks
+                    FEM- ANSYS Workbench, ANSYS Structural
+                    </p>
+            </div>
+            <div class="project-images">
+                <img src="p31.jpg" alt="image">
+                <img src="p32.jpg" alt="image">
+                <img src="p33.jpg" alt="image">
+            </div>
+        </div>
+    </section>
+     <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h4>Email</h4>
+                <p><a href="mailto:katteparinith18@gmail.com">katteparinith18@gmail.com</a></p>
+            </div>
+            <div class="footer-item">
+                <h4>LinkedIn</h4>
+                <p><a href="https://www.linkedin.com/in/parinith-katte/" target="_blank">in</a></p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById("navLinks");
+            if (navLinks.style.display === "block") {
+                navLinks.style.display = "none"; // Hide the menu
+            } else {
+                navLinks.style.display = "block"; // Show the menu
+            }
+        }
+    </script>
+</body> 
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects-Parinith Katte</title>
+    <link rel="stylesheet" href="style.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <a href="index.html">Parinith Katte</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="publications_awards.html">Publications & Awards</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </section>
+    <section>
+        <div class="p-title">
+            <h2>Electrification Of Residential Air Conditioning And Heating  
+            </h2>
+            <h3>Purdue University, West Lafayette
+            </h3>
+        </div>
+    </section>
+    <section class="project-details">
+        <div class="project-container">
+            <div class="project-content">
+                <ul>
+                    <li>The project aims to design and optimize a heat pump system for a reference house in Detroit, MI, contributing to the U.S. Department of Energy’s “Net-Zero Carbon Emission by 2050” goal by reducing CO₂ emissions from residential heating and air-conditioning.
+                    </li><li>The heat pump uses R-450A, a low-GWP refrigerant that reduces CO₂ emissions by 738 kg compared to traditional refrigerants like R-410A. The system also features a Copeland ZB19KCE-TFD compressor, optimized for building load management.
+                    </li><li>The heat pump’s isentropic efficiency is 61%, with a COP of 3.5 and SEER values of 15.91 (heating) and 15.96 (cooling), exceeding U.S. government energy efficiency standards. A flash tank inclusion increased COP by 5.3%, boosting overall system efficiency.
+                    </li><li>The optimized design achieves up to a 35% reduction in electricity costs due to improved efficiency and optimal heat pump sizing, supporting energy conservation and cost savings for residential users.
+                    </li><li>Future research will focus on further optimization of the heat pump cycle, exploring additional low-GWP refrigerants like R-440A and R-430A, and assessing the effects of compressor oversizing and CO₂ emissions across different refrigerants for more comprehensive environmental impact analysis.
+                    </li></ul>
+                <p><strong><br>Skills:</strong>
+                    Design and Modeling of heat pump- EES Software
+                </p>
+            </div>
+            <div class="project-images">
+                <img src="p71.jpg" alt="image">
+                <img src="p72.jpg" alt="image">
+                <img src="p73.jpg" alt="image">
+            </div>
+        </div>
+    </section>
+     <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h4>Email</h4>
+                <p><a href="mailto:katteparinith18@gmail.com">katteparinith18@gmail.com</a></p>
+            </div>
+            <div class="footer-item">
+                <h4>LinkedIn</h4>
+                <p><a href="https://www.linkedin.com/in/parinith-katte/" target="_blank">in</a></p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById("navLinks");
+            if (navLinks.style.display === "block") {
+                navLinks.style.display = "none"; // Hide the menu
+            } else {
+                navLinks.style.display = "block"; // Show the menu
+            }
+        }
+    </script>
+</body> 
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects-Parinith Katte</title>
+    <link rel="stylesheet" href="style.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <a href="index.html">Parinith Katte</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="publications_awards.html">Publications & Awards</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </section>
+    <section>
+        <div class="p-title">
+            <h2>Investigation on the Dynamic characteristics of Adhesively Bonded Tubular Strap joints: A Numerical and Mathematical approach 
+            </h2>
+            <h3>Research Paper presented at ISME 2022 IIT Ropar Conference 
+                - PES University, Bangalore
+            </h3>
+        </div>
+    </section>
+    <section class="project-details">
+        <div class="project-container">
+            <div class="project-content">
+                <ul>
+                    <li>TThe project investigates the dynamic characteristics of adhesively bonded tubular strap joints, focusing on how adhesive bonding influences vibration suppression compared to traditional methods like welding or brazing.
+                    </li><li>TA finite element mathematical model was developed to analyze variations in tube length, overlap length, and diameter, with modal analysis performed to determine the dynamic behavior of the joint.
+                    </li><li>TThe analytical model was validated against finite element simulations, showing strong agreement, and the study identified key vibration characteristics, revealing how adhesive bonding affects damping properties.
+                    </li><li>TThe developed FEM model provides a reliable framework for evaluating materials and adhesive thicknesses, with Frequency Response Functions (FRFs) and damping properties extracted for various excitation conditions.
+                    </li><li>The model has the potential to optimize adhesive joint designs for improved vibration control in industries like automotive, aerospace, and structural engineering, with further research exploring adhesive variations, material effects, and real-world dynamic loading conditions.</li>
+                </ul>
+                <p><strong><br>Skills:</strong>
+                    CAD- Solidworks
+                    FEM- ANSYS Structural, Matlab
+                                                           
+                    </p>
+            </div>
+            <div class="project-images">
+                <img src="p61.jpg" alt="image">
+                <img src="p62.jpg" alt="image">
+            </div>
+        </div>
+    </section>
+     <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h4>Email</h4>
+                <p><a href="mailto:katteparinith18@gmail.com">katteparinith18@gmail.com</a></p>
+            </div>
+            <div class="footer-item">
+                <h4>LinkedIn</h4>
+                <p><a href="https://www.linkedin.com/in/parinith-katte/" target="_blank">in</a></p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById("navLinks");
+            if (navLinks.style.display === "block") {
+                navLinks.style.display = "none"; // Hide the menu
+            } else {
+                navLinks.style.display = "block"; // Show the menu
+            }
+        }
+    </script>
+</body> 
+</html>

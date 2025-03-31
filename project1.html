@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects-Parinith Katte</title>
+    <link rel="stylesheet" href="style.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <a href="index.html">Parinith Katte</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="publications_awards.html">Publications & Awards</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </section>
+    <section>
+        <div class="p-title">
+            <h2>Parametric Analysis of a Race Car Diffuser</h2>
+            <h3>PES University, Bangalore</h3>
+        </div>
+    </section>
+    <section class="project-details">
+        <div class="project-container">
+            <div class="project-content">
+                <ul>
+                    <li>The project focused on enhancing the aerodynamic performance of a race car diffuser through parametric optimization and CFD analysis, leading to a 35% increase in the lift-to-drag ratio and improved high-speed cornering stability.</li>
+                    <li>The initial diffuser design featured a 5° inlet angle, 20° outlet angle, 50mm ground clearance, and a length of 1500mm from the inlet wall. The geometry was modeled in SolidWorks, meshed with a 0.03m mesh size, and simulated in ANSYS Fluent. A mesh independence study was conducted to refine accuracy.</li>
+                    <li>The diffuser improves airflow transition, reducing drag while increasing downforce by leveraging Bernoulli’s Principle and pressure recovery. The Venturi effect creates a vacuum underneath the car, facilitating wake infill and enhancing overall vehicle stability.</li>
+                    <li>Optimization involved studying different angle variations to determine the most aerodynamically efficient diffuser shape. Insights from 2021 Formula 1 diffuser regulations were incorporated to refine the design, ultimately identifying an optimized configuration for better track performance.</li>
+                    <li>The study provides valuable insights for motorsports teams and automotive manufacturers, contributing to race car aerodynamic optimization. It highlights how advanced CFD-based design validation can enhance vehicle stability, handling, and fuel efficiency, making it relevant for high-performance automotive applications.</li>
+                </ul>
+                <p><strong><br>Skills:</strong> CAD- SolidWorks, CFD- ANSYS Fluent, ANSYS Workbench, Comsol</p>
+            </div>
+            <div class="project-images">
+                <img src="p11.jpg" alt="image">
+                <img src="p12.jpg" alt="image">
+                <img src="p13.jpg" alt="image">
+            </div>
+        </div>
+    </section>
+     <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h4>Email</h4>
+                <p><a href="mailto:katteparinith18@gmail.com">katteparinith18@gmail.com</a></p>
+            </div>
+            <div class="footer-item">
+                <h4>LinkedIn</h4>
+                <p><a href="https://www.linkedin.com/in/parinith-katte/" target="_blank">in</a></p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById("navLinks");
+            if (navLinks.style.display === "block") {
+                navLinks.style.display = "none"; // Hide the menu
+            } else {
+                navLinks.style.display = "block"; // Show the menu
+            }
+        }
+    </script>
+</body> 
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects-Parinith Katte</title>
+    <link rel="stylesheet" href="style.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <a href="index.html">Parinith Katte</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="publications_awards.html">Publications & Awards</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </section>
+    <section class="technical-projects">
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Parametric Analysis of a Race Car Diffuser</h3>
+                <p>PES University, Bangalore</p>
+                <a href="project1.html" target="_blank" class="read-more">Read More</a>
+            </div>
+            <div class="project-card">
+                <h3>Effect Of Fluid Property Variations On A Two Fluid Counter-current Cryogenic Heat Exchangers</h3>
+                <p>Journal Publication: Wiley Heat Transfer - PES University, Bangalore</p>
+                <a href="project2.html" target="_blank" class="read-more">Read More</a>
+            </div>
+            <div class="project-card">
+                <h3>Design and Optimization of Flexure Bearings in Cryocoolers using CAD and FEM principles</h3>
+                <p>IISc, Bangalore</p>
+                <a href="project3.html" target="_blank" class="read-more">Read More</a>
+            </div>
+            <div class="project-card">
+                <h3>Design, Development and Heat Transfer Analysis of Cryogenic Transfer Lines</h3>
+                <p>IISc, Bangalore</p>
+                <a href="project4.html" target="_blank" class="read-more">Read More</a>
+            </div>
+            <div class="project-card">
+                <h3>Product Innovation, Design and Development - Wing Ease</h3>
+                <p>Purdue University, West Lafayette</p>
+                <a href="project5.html" target="_blank" class="read-more">Read More</a>
+            </div>
+            <div class="project-card">
+                <h3>Investigation on the Dynamic Characteristics of Adhesively Bonded Tubular Strap Joints: A Numerical and Mathematical Approach</h3>
+                <p>Research Paper presented at ISME 2022 IIT Ropar Conference - PES University, Bangalore</p>
+                <a href="project6.html" target="_blank" class="read-more">Read More</a>
+            </div>
+            <div class="project-card">
+                <h3>Electrification Of Residential Air Conditioning And Heating</h3>
+                <p>Purdue University, West Lafayette</p>
+                <a href="project7.html" target="_blank" class="read-more">Read More</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h4>Email</h4>
+                <p><a href="mailto:katteparinith18@gmail.com">katteparinith18@gmail.com</a></p>
+            </div>
+            <div class="footer-item">
+                <h4>LinkedIn</h4>
+                <p><a href="https://www.linkedin.com/in/parinith-katte/" target="_blank">in</a></p>
+            </div>
+        </div>
+    </footer>
+<script>
+    function toggleMenu() {
+        const navLinks = document.getElementById("navLinks");
+        if (navLinks.style.display === "block") {
+            navLinks.style.display = "none"; // Hide the menu
+        } else {
+            navLinks.style.display = "block"; // Show the menu
+        }
+    }
+</script>
+</body> 
+</html>

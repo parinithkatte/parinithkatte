@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications & Awards-Parinith Katte</title>
+    <link rel="stylesheet" href="style.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <a href="index.html">Parinith Katte</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="publications_awards.html">Publications & Awards</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </section>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById("navLinks");
+            if (navLinks.style.display === "block") {
+                navLinks.style.display = "none";
+            } else {
+                navLinks.style.display = "block";
+            }
+        }
+    </script>
+    <section class="publications-awards">
+        <div class="publication-award-item">
+            <img src="r1.png" alt="Publication 1" class="publication-image">
+            <div class="publication-content">
+                <h3>Journal Publication- Wiley Heat Transfer Journal
+                </h3>
+                <p>"Effect of fluid property variations on the effectiveness of a cryogenic heat exchanger" <a href="https://doi.org/10.1002/htj.22892" target="_blank">Read more</a></p>
+            </div>
+        </div>
+        <div class="publication-award-item">
+            <img src="r2.png" alt="Award 1" class="publication-image">
+            <div class="publication-content">
+                <h3>Conference Paper- ISME 2022 IIT Rupnagar Conference</h3>
+                <p>“Investigation on the Dynamic characteristics of Adhesively 
+                    Bonded Tubular Strap joints: A Numerical and Mathematical Approach” 
+                    </p>
+            </div>
+        </div>
+        <div class="publication-award-item">
+            <img src="r3.png" alt="Award 2" class="publication-image">
+            <div class="publication-content">
+                <h3>Best Outgoing Student Award- Mechanical Engineering</h3>
+                <p>PES Univeristy</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h4>Email</h4>
+                <p><a href="mailto:katteparinith18@gmail.com">katteparinith18@gmail.com</a></p>
+            </div>
+            <div class="footer-item">
+                <h4>LinkedIn</h4>
+                <p><a href="https://www.linkedin.com/in/parinith-katte/" target="_blank">in</a></p>
+            </div>
+        </div>
+    </footer>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PragVera Consultants</title>
+    <link rel="stylesheet" href="style.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img class="logo" src="images\PragVera_new_logo.png" alt="logo2"></a>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="founders_desk.html">Founders Desk</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+        <div class="text-box">
+            <h2>PRAGMATIC AND FACTFUL APPROACH TO<br>
+                DELIVERING SUSTAINABLE <span class="highlight">SOLUTIONS</span><br>
+                ENHANCING ENTERPRISE VALUE.</h2>
+            <a href="services.html" class="hero-btn">Explore our services</a>
+        </div>
+    </section>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById("navLinks");
+            if (navLinks.style.display === "block") {
+                navLinks.style.display = "none";
+            } else {
+                navLinks.style.display = "block";
+            }
+        }
+    </script>
+    <section class="about-us">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>PragVera Consultants specializes in automobile supply chain management, optimizing sourcing, supplier development, and quality control. We enhance business processes through a balanced scorecard approach and drive manufacturing and operational excellence for maximum efficiency.<br>Our expertise in EXIM and international logistics ensures seamless global trade, while supply chain risk management mitigates disruptions. Through a shared services model, we offer a flexible, cost-efficient approach to operations.<br>With board advisory services and data-driven strategies, we empower businesses to optimize performance and drive growth.</p>
+                <a href="founders_desk.html" class="more-btn">Meet Our Founder</a>
+            </div>
+            <div class="about-stats">
+                <div class="stat-box">
+                    <h2>250+</h2>
+                    <p>Years of Collective Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why-choose-us">
+        <div class="why-left">
+            <div class="why-title">
+                <h2>WHY<br>CHOOSE<br>US!</h2>
+            </div>
+            <p>We provide innovative solutions to enhance enterprise value, optimize costs, and achieve process excellence. Partner with us for domain expertise and trusted collaboration.</p>
+        </div>
+        <div class="why-right">
+            <div class="icon-box">
+                <div class="icon"><img src="images/icon1.png" alt="Enterprise Value Enhancement"></div>
+                <div class="icon-text">
+                    <h4>Enterprise Value Enhancement</h4>
+                    <p>Maximize your business value with our tailored strategies.</p>
+                </div>
+            </div>
+            <div class="icon-box">
+                <div class="icon"><img src="images/icon2.png" alt="Cost Optimisation"></div>
+                <div class="icon-text">
+                    <h4>Cost Optimisation</h4>
+                    <p>Streamline operations and reduce costs effectively.</p>
+                </div>
+            </div>
+            <div class="icon-box">
+                <div class="icon"><img src="images/icon3.png" alt="Process Excellence"></div>
+                <div class="icon-text">
+                    <h4>Process Excellence</h4>
+                    <p>Achieve operational excellence with our expertise.</p>
+                </div>
+            </div>
+            <div class="icon-box">
+                <div class="icon"><img src="images/icon4.png" alt="Domain Expertise"></div>
+                <div class="icon-text">
+                    <h4>Domain Expertise</h4>
+                    <p>Leverage our deep industry knowledge for success.</p>
+                </div>
+            </div>
+            <div class="icon-box">
+                <div class="icon"><img src="images/icon5.png" alt="Trusted Partner"></div>
+                <div class="icon-text">
+                    <h4>Trusted Partner</h4>
+                    <p>Collaborate with a partner you can rely on.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <div class="testimonials-title">
+            <h2>What Our Clients Say</h2>
+            <p>We are proud to have worked with some amazing clients. Here's what they have to say about us.</p>
+        </div>
+        <div class="testimonials-container">
+            <div class="testimonial-box">
+                <p>"PragVera helped us streamline our operations and achieve cost optimization. Their expertise is unmatched!"</p>
+                <h4>- John Doe</h4>
+                <span>CEO, TechCorp</span>
+            </div>
+            <div class="testimonial-box">
+                <p>"The team at PragVera provided innovative solutions that enhanced our enterprise value significantly."</p>
+                <h4>- Jane Smith</h4>
+                <span>Managing Director, BizSolutions</span>
+            </div>
+            <div class="testimonial-box">
+                <p>"Their domain expertise and collaborative approach made them a trusted partner for our business."</p>
+                <h4>- Michael Lee</h4>
+                <span>Founder, StartUp Inc.</span>
+            </div>
+        </div>
+    </section>
+    <section class="linkedin-feed">
+        <div class="linkedin-header">
+            <h2>Follow Us on LinkedIn</h2>
+            <p>Stay updated with our latest posts and insights.</p>
+            <a href="https://in.linkedin.com/company/pragvera" target="_blank" class="linkedin-btn">Visit Our LinkedIn</a>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Get in touch</h4>
+                <p><a href="mailto:enquiries@pragvera.com">enquiries@pragvera.com</a></p>
+            </div>
+            <div class="footer-column">
+                <h4>Connect</h4>
+                <p><a href="https://in.linkedin.com/company/pragvera" target="_blank">LinkedIn</a></p>
+            </div>
+            <div class="footer-column">
+                <h4>PragVera Consultants</h4>
+                <p>#6, 3rd floor, Shivashakti,</p>
+                <p>11th cross road, Chord Road,</p>
+                <p>Rajajinagar, Bengaluru 560086,</p>
+                <p>Karnataka,India.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="founders_desk.html">Founders Desk</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p>&copy; 2025 PragVera Consultants. All rights reserved.</p>
+        </div>
+    </footer>
+</body> 
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects-Parinith Katte</title>
+    <link rel="stylesheet" href="style.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <a href="index.html">Parinith Katte</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="publications_awards.html">Publications & Awards</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </section>
+    <section>
+        <div class="p-title">
+            <h2>Effect Of Fluid Property Variations On A Two Fluid Counter-current Cryogenic Heat Exchangers</h2>
+            <h3>Journal Publication: Wiley Heat Transfer - PES University, Bangalore</h3>
+        </div>
+    </section>
+    <section class="project-details">
+        <div class="project-container">
+            <div class="project-content">
+                <ul>
+                    <li>This project examines the effect of fluid property variations on cryogenic heat exchanger performance, specifically in air separation and natural gas liquefaction. Unlike traditional analyses that assume constant properties, this study incorporates variations to improve accuracy.    </li>
+                    <li>The Finite Element Method (FEM) – Subdomain method was implemented in Matlab to solve governing differential equations and derive non-dimensional temperature profiles for both hot and cold fluids.</li>
+                    <li>A comparative analysis between constant and variable fluid property models revealed significant deviations in effectiveness due to ambient heat leakage at cryogenic temperatures, demonstrating the limitations of conventional assumptions.</li>
+                    <li>Performance evaluation showed effectiveness (∈) and NTU variations across different mass flow rates. Effectiveness deviations ranged from -15.1% to 97.8%, with a temperature cross occurring at lower ambient heat leakage levels when property variations were considered, underscoring the importance of accurate thermal modeling.
+                    </li>
+                    <li>The study provides valuable insights for industries utilizing cryogenic heat exchangers, enabling more precise thermal management and optimized system designs that account for real-world fluid property variations.
+                    </li>
+                </ul>
+                <p><strong><br>Skills:</strong>FEM- Subdomain Method, MatLab</p>
+            </div>
+            <div class="project1-images">
+                <img src="p21.jpg" alt="image"class="small-image">
+                <img src="p22.jpg" alt="image" class="large-image">
+            </div>
+        </div>
+    </section>
+     <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h4>Email</h4>
+                <p><a href="mailto:katteparinith18@gmail.com">katteparinith18@gmail.com</a></p>
+            </div>
+            <div class="footer-item">
+                <h4>LinkedIn</h4>
+                <p><a href="https://www.linkedin.com/in/parinith-katte/" target="_blank">in</a></p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById("navLinks");
+            if (navLinks.style.display === "block") {
+                navLinks.style.display = "none"; // Hide the menu
+            } else {
+                navLinks.style.display = "block"; // Show the menu
+            }
+        }
+    </script>
+</body> 
+</html>
