@@ -128,7 +128,7 @@ nav {
     .text-box-container {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items horizontally */
-        text-align: left; /* left-align text */
+        text-align: center; /* align text */
         margin-top: 20px; /* Add spacing from the header */
     }
 
@@ -138,7 +138,8 @@ nav {
     }
 
     .text-box {
-        max-width: 90%; /* Adjust text width for smaller screens */
+        max-width: 90%;/* Adjust text width for smaller screens */
+        text-align: left;
     }
     .logo {
         margin-top: 10%; /* Adjust this value to move the name down */
