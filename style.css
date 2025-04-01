@@ -128,8 +128,11 @@ nav {
     .text-box-container {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items horizontally */
-        text-align: left; /* Center-align text */
+        text-align: left;
         margin-top: 20px; /* Add spacing from the header */
+    }
+    .text-box h3{
+        text-align: left;
     }
 
     .text-box-image {
@@ -876,7 +879,7 @@ footer {
 }
 
 .resume-dates {
-    flex: 1.5; /* Adjust width of the date section */
+    flex: 1.7; /* Adjust width of the date section */
     font-size: 16px;
     color: #555;
     text-align: right;
@@ -898,7 +901,7 @@ footer {
     font-size: 16px;
     font-weight: normal;
     margin-bottom: 10px;
-    color: #333;
+    color: #0f0f0f;
 }
 
 .resume-details ul {
@@ -990,24 +993,41 @@ footer {
 
 /* Add responsiveness for smaller screens */
 @media (max-width: 850px) {
-    .contact-container {
-        padding: 20px;
+    .resume-item {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        margin-bottom: 20px;
+    }
+    .resume-container{
+        margin-left: 0; /* Remove any left margin */
+        padding-left: 10px;
     }
 
-    .contact-container h1 {
-        font-size: 28px;
-    }
-
-    .contact-container p {
+    .resume-details {
         font-size: 16px;
+        color: #333;
+        text-align: left; /* Align text to the left */
     }
 
-    .contact-item h4 {
+    .resume-details h3 {
         font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #000;
     }
 
-    .contact-item p {
-        font-size: 14px;
+    .resume-details h4 {
+        font-size: 16px;
+        font-weight: normal;
+        margin-bottom: 5px; /* Add spacing below the h4 */
+        color: #070707;
+    }
+
+    .resume-dates {
+        font-size: 16px;
+        color: #555;
+        text-align: left; /* Align text to the left */
+        margin-top: 5px; /* Add spacing above the date */
     }
 }
 /* Project Details Section */
